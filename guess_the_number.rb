@@ -1,13 +1,13 @@
-puts "Welcome to guess the number"
-secret_number = rand(20)
+puts "welcome to guess the letter !"
+secret_number = rand(50)
 
-puts "Guess a number between 0 and 19:"
+puts "Guess a number between 0 and 49:"
 guess = gets.chomp.to_i
 
 until guess == secret_number
- puts "Wrong! Try again"
+puts "Wrong! try again"
  guess = gets.chomp.to_i
 
 end
 
-"congrats you won!"
+puts "congrats! you guess the number"
